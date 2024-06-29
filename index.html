@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./app.css" />
+    <script src="./dist/app.js" defer></script>
+    <title>Todo app</title>
+  </head>
+  <body>
+    <div id="todoApp">
+      <div class="main-bg"></div>
+      <div class="todo-container">
+        <header>
+          <h1 class="app-title">TODO</h1>
+          <div class="toggle-icon"></div>
+        </header>
+        <body>
+          <div id="toDoWrapper">
+            <div class="todo-input-wrapper">
+              <div class="circle"></div>
+              <input
+                id="todoInput"
+                type="text"
+                placeholder="Create a new todo..."
+              />
+            </div>
+            <div class="todo-list-wrapper">
+              <ul id="toDoList"></ul>
+              <div class="no-item-found">
+                <img src="./images/empty-cart.png" alt="Empty basket" />
+                <p>No item added</p>
+              </div>
+              <div class="todo-list-footer">
+                <span class="left-items"></span>
+                <div class="todo-items-status">
+                  <span id="all" class="filter-btn active">All</span>
+                  <span id="active" class="filter-btn">Active</span>
+                  <span id="completed" class="filter-btn">Completed</span>
+                </div>
+                <button class="clear-completed-items">Clear Completed</button>
+              </div>
+            </div>
+            <div class="todo-items-status mob-v">
+              <span id="all" class="filter-btn active">All</span>
+              <span id="active" class="filter-btn">Active</span>
+              <span id="completed" class="filter-btn">Completed</span>
+            </div>
+          </div>
+        </body>
+      </div>
+      <div class="note">Drag and drop to reorder list</div>
+    </div>
+  </body>
+</html>
