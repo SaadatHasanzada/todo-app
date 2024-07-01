@@ -1,6 +1,6 @@
-import { Task } from "../models/Task";
-import { Filter } from "../models/Filter";
-import { saveToLocalStorage, loadFromLocalStorage } from "../utils/storage";
+import { Task } from "../models/Task.js";
+import { Filter } from "../models/Filter.js";
+import { saveToLocalStorage, loadFromLocalStorage } from "../utils/storage.js";
 
 export class ToDoApp {
   private tasks: Task[] = [
@@ -119,7 +119,7 @@ export class ToDoApp {
   private loadTasks(): void {
     const savedTasks = loadFromLocalStorage("tasks");
     if (savedTasks) {
-      this.tasks = JSON.parse(savedTasks);
+      this.tasks = savedTasks;
     }
   }
   private saveActiveFilter() {

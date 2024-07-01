@@ -1,4 +1,4 @@
-import { saveToLocalStorage, loadFromLocalStorage } from "../utils/storage";
+import { saveToLocalStorage, loadFromLocalStorage } from "../utils/storage.js";
 
 export class SwitchTheme {
   private targetElement: HTMLBodyElement = document.body! as HTMLBodyElement;
