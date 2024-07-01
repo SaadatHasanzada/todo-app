@@ -1,6 +1,6 @@
-import { Task } from "../models/Task.js";
-import { Filter } from "../models/Filter.js";
-import { saveToLocalStorage, loadFromLocalStorage } from "../utils/storage.js";
+import { Task } from "../models/Task";
+import { Filter } from "../models/Filter";
+import { saveToLocalStorage, loadFromLocalStorage } from "../utils/storage";
 
 export class ToDoApp {
   private tasks: Task[] = [

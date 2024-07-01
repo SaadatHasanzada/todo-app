@@ -1,5 +1,5 @@
-import { ToDoApp } from "./components/ToDoApp.js";
-import { SwitchTheme } from "./components/SwitchTheme.js";
+import { ToDoApp } from "./components/ToDoApp";
+import { SwitchTheme } from "./components/SwitchTheme";
 
 document.addEventListener("DOMContentLoaded", () => {
   new ToDoApp();
