@@ -40,7 +40,6 @@ To get a local copy of this project up and running, follow these steps:
 
 ### Installation
 1. Clone the repository
-2. Navigate to the Project Directory
-3. Install Dependencies - npm install
-4. Start the Development Server - npm run dev
+3. Install dependencies with `npm install`
+4. Run the development server with `npm run dev`
 
