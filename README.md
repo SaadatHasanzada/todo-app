@@ -43,4 +43,4 @@ To get a local copy of this project up and running, follow these steps:
 2. Navigate to the Project Directory
 3. Install Dependencies - npm install
 4. Start the Development Server - npm run dev
-  
+
