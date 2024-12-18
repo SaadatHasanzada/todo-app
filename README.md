@@ -1,6 +1,6 @@
 # Todo App
 
-This is a feature-rich Todo App built with React and TypeScript. It allows users to manage their tasks efficiently with filtering, drag-and-drop reordering, and dark mode functionality. The project is a solution to the [Todo app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/todo-app-Su1_KokOW).
+This is a feature-rich Todo App built with React and TypeScript. It allows users to manage their tasks efficiently with filtering, drag-and-drop reordering, and dark mode functionality.
 
 ## Table of Contents
 - [Features](#features)
