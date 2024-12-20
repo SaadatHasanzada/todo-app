@@ -41,5 +41,5 @@ To get a local copy of this project up and running, follow these steps:
 ### Installation
 1. Clone the repository
 3. Install dependencies with `npm install`
-4. Run the development server with `npm run dev`
+4. Run the development server with `npm start`
 
