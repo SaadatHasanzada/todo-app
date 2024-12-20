@@ -1,6 +1,6 @@
 # Todo App
 
-This is a feature-rich Todo App built with React and TypeScript. It allows users to manage their tasks efficiently with filtering, drag-and-drop reordering, and dark mode functionality.
+This is a feature-rich Todo App built with TypeScript. It allows users to manage their tasks efficiently with filtering, drag-and-drop reordering, and dark mode functionality.
 
 ## Table of Contents
 - [Features](#features)
@@ -28,8 +28,8 @@ This is a feature-rich Todo App built with React and TypeScript. It allows users
 Live Site URL: [Todo app](https://ts-todo-app-d.netlify.app/)
 
 ## Technologies Used
-- React
 - TypeScript
+- Webpack
 
 ## Getting Started
 
